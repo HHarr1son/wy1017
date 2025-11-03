@@ -1,0 +1,25 @@
+# API Service Dependencies - Real Model Version
+# Includes PEFT for LoRA adapter loading
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# Deep Learning Core
+torch==2.1.0
+transformers==4.36.0
+accelerate==0.24.1
+
+# LoRA/PEFT Support
+peft==0.7.1
+
+# Utilities
+tqdm==4.66.1
+jsonlines==4.0.0
+
+# CORS Support
+python-multipart==0.0.6
+
+# Fix NumPy version conflict
+numpy<2.0.0
